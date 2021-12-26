@@ -39,7 +39,11 @@ for i in range(50, 100):
         print(i, " is divisible by 2")
     else:
         print(i, " is not divisible by 2 ")
+#printing out a list of cities with the length of characters in each city
 
+cities = ["Nairobi", "Nakuru", "Makueni", "Mombasa", "Nyeri"]
+for t in cities:
+    print(t, len(t))
 
 
 
